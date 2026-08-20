@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+.node_modules.lock
+
+# Build / generated
+.tanstack
+.vercel
+dist
+dist-ssr
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Agent / sandbox (not part of the product)
+AGENTS.md
+AGENTS.project.md
+.grok
+startup.sh
+screenshots
+artifacts
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
